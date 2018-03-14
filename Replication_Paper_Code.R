@@ -290,4 +290,3 @@ abline(0, 1)
 legend("bottomright", lwd = 2, legend=c("Controls + GDP", "Controls + Media", "Controls + GDP + Media"), col=c("grey56", "grey26","grey0"),cex=0.5,pt.cex=0.5)
 ggsave("ROCplot.jpeg", plot = last_plot(), width = 6, height = 6, units = "in")
 
-# I'm adding text here just to practice how changes get implemented in GitHub's workflow.
